@@ -1,0 +1,153 @@
+QUESTION NO.: 1
+1). Data cleaning is defined as removal of noisy and
+data from Collection. As a part of this.
+irrelavant
+Process
+noisy
+accuracy of
+also filled.
+"
+redundant data is removed So
+data increases. Missing values are
+22. Data Integration. It is defined as coulbining
+Heterogeneous data from multiple Sources.
+Data Integration is done by ETL (Extract -
+Load Transformation ).
+3). Data Selection:- This Process is defined as
+Process where data which are only relevant to
+analysis is decided and
+form the
+retrieved
+data Source.
+4). Data Transformation:- Data transformation is
+defined as process of transforming data
+into appropriate forme required by mining
+here used
+are Dimension
+Process. Techniques.
+reduction feature selection.
+5). Data Minining:- In this step diefferent techniques
+extract Potential patterns and
+are applied
+Informations.
+to
+Scanned with CamScannerQUESTION NO.: 2
+Atomicity: All statements of transaction
+much succeed completely or fail
+Completely in each and every
+situation including power failures,
+errors and crashes.
+Consistency: The database must remain
+in consistent state after any transaction.
+Data in database should not have
+any changes other than intended after
+bansaction completion.
+Insolation: Isolation ensures that
+"Concurrent execution of transactions
+leaves database in same state.
+that would have been obtained
+if transactions were executed
+sequentially.
+Durability : It guarantees that once
+transaction has been committed,
+it will remain committed even in
+case of system failure which actually
+means recording completed
+transaction in nonvolatile memory
+Scanned with CamScannerQUESTION NO.: 3.
+Object oriented programming is programming Paradigm.
+-Java
+tried
+follow oop paradigm. It provides
+like
+many
+Concepts.
+Encapsulation,
+Abstraction, polymorphism, Inheritance.
+вор
+to
+Encapsulation! - In Encapsulation data - Attributer
+and methods.
+related
+Single object are
+kept together (Encapsulated).
+By Using classed.
+In Java we
+Encapsulation.
+for example making
+know
+how
+Abstraction in Abstraction
+is
+to
+hide the
+сосу
+internal complexity of process from user.
+phone call - we don't
+to
+to
+how internally it works.
+make
+a
+can Achieve
+call.
+we just know.
+Inheritance:- Inheritance allows to
+use existing
+be nesed it in
+features of
+other class to
+dnother class. the class from which
+we derive
+is called Super or Base class, the derived class.
+as child class. Java does not
+is
+also
+called as child
+allows multiple Inheritance.
+Scanned with CamScannerQUESTION NO.: 4
+express
+A DBMS has appropriate languages and interfaces
+to e database queries and updates. Database
+languages can be used to read, store and
+update the data in database. Types of database
+languages:
+-- 1) DDL 2) DML
+3) DCL
+4) TCL
+1) Data Definition language. It is used
+to define database structive or pattern. It is
+used to create schema, table, index, etc.
+in database. Using DDL statements, you
+can create skeleton database.
+of
+2) DML : Data Manipulation language. It
+is used for accessing and manipulating
+data in database. It handles user
+requests. Some tasks: Select. It is used
+to retrieve data from database. Insert.
+It is used to insent data into table.
+Update: It is used to update existing
+data vion within a table
+3) Data Control language: It is
+used to retrieve the stored or saved
+data. The DCL execution is transaction-
+al. It also has rollback- parameters.
+Scanned with CamScannerQUESTION NO.: 5
+Kernel is central component of
+operating system that manages
+` operations of computer and hardware.
+It basically manages operations of
+memory and CPU time. It is core.
+component of operating system. Kernel
+acts as bridge between application
+and data processing performed at
+hardware leveel using inter-process
+Communication and system calls
+Kernel loads first into memory
+when operating system is loaded
+and remains into memory until
+operating system is shut down
+again-
+•
+Scanned with CamScanner

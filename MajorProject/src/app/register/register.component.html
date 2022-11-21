@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="bground">
+      <div class="hero">
+        <a routerLink="/"><img src="assets/finallogo.png" class="logo" /></a>
+
+        <div class="form-box">
+          <h1>Registration</h1>
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" (click)="student()">
+              Student
+            </button>
+            <button type="button" class="toggle-btn" (click)="faculty()">
+              Faculty
+            </button>
+          </div>
+
+          <div id="student" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              id="stu_name"
+              placeholder="Name"
+              [(ngModel)]="name"
+              required
+            />
+            <input
+              type="email"
+              class="input-field"
+              id="stu_email"
+              placeholder="Email"
+              [(ngModel)]="email"
+              required
+            />
+            <input
+              type="password"
+              class="input-field"
+              id="stu_password"
+              placeholder="Password"
+              [(ngModel)]="password"
+              required
+            />
+            <input
+              type="tel"
+              class="input-field"
+              id="stu_mob"
+              placeholder="Mobile Number"
+              [(ngModel)]="mobile"
+              required
+            />
+            <input type="radio" name="radiobtn" class="radio-btn" />
+            <label for="radio">Male</label>
+            <input type="radio" name="radiobtn" class="radio-btn" />
+            <label for="radio">Female</label>
+            <button
+              type="button"
+              class="submit-btn"
+              id="addStudent"
+              (click)="studentRegister()"
+            >
+              Register
+            </button>
+            <p>Already have an Account?</p>
+            <a routerLink="/Login">Login</a>
+          </div>
+
+          <div id="faculty" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              id="fac_name"
+              placeholder="Name"
+              [(ngModel)]="name"
+              required
+            />
+            <input
+              type="email"
+              class="input-field"
+              id="fac_email"
+              placeholder="Email"
+              [(ngModel)]="email"
+              required
+            />
+            <input
+              type="password"
+              class="input-field"
+              id="fac_password"
+              [(ngModel)]="password"
+              placeholder="Password"
+              required
+            />
+            <input
+              type="tel"
+              class="input-field"
+              id="fac_mob"
+              placeholder="Mobile Number"
+              [(ngModel)]="mobile"
+              required
+            />
+            <input type="radio" name="radiobtn" class="radio-btn" />
+            <label for="radio" class="rdlabel">Male</label>
+            <input type="radio" name="radiobtn" class="radio-btn" />
+            <label for="radio" class="rdlabel">Female</label>
+            <button
+              type="button"
+              class="submit-btn"
+              id="addFaculty"
+              (click)="facultyRegister()"
+            >
+              Register
+            </button>
+            <p>Already have an Account?</p>
+            <a routerLink="/Login">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

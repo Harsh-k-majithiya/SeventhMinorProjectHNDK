@@ -1,0 +1,61 @@
+QUESTION NO.: 1 MARKS:5
+Steps Involved in KDD Process:
+Data Cleaning: Data cleaning is defined as removal of noisy and irrelevant data from collection. 
+Cleaning in case of Missing values.
+Cleaning noisy data, where noise is a random or variance error.
+Cleaning with Data discrepancy detection and Data transformation tools.
+Data Integration: Data integration is defined as heterogeneous data from multiple sources combined in a common source(DataWarehouse). 
+Data integration using Data Migration tools.
+Data integration using Data Synchronization tools.
+Data integration using ETL(Extract-Load-Transformation) process.
+Data Selection: Data selection is defined as the process where data relevant to the analysis is decided and retrieved from the data collection. 
+Data selection using Neural network.
+Data selection using Decision Trees.
+Data selection using Naive bayes.
+Data selection using Clustering, Regression, etc.
+Data Transformation: Data Transformation is defined as the process of transforming data into appropriate form required by mining procedure. 
+Data Transformation is a two step process: 
+Data Mapping: Assigning elements from source base to destination to capture transformations.
+Code generation: Creation of the actual transformation program.
+Data Mining: Data mining is defined as clever techniques that are applied to extract patterns potentially useful. 
+Transforms task relevant data into patterns.
+Decides purpose of model using classification or characterization.
+Pattern Evaluation: Pattern Evaluation is defined as identifying strictly increasing patterns representing knowledge based on given measures. 
+Find interestingness score of each pattern.
+Uses summarization and Visualization to make data understandable by user.
+Knowledge representation: Knowledge representation is defined as technique which utilizes visualization tools to represent data mining results. 
+Generate reports.
+Generate tables.
+Generate discriminant rules, classification rules, characterization rules, etc.
+
+QUESTION NO.: 2 MARKS:4
+ACID Properties:
+Atomicity: The term atomicity defines that the data remains atomic. It means if any operation is performed on the data, either it should be performed or executed completely or should not be executed at all. It further means that the operation should not break in between or execute partially. In the case of executing operations on the transaction, the operation should be completely executed and not partially.
+Consistency: The word consistency means that the value should remain preserved always. In DBMS, the integrity of the data should be maintained, which means if a change in the database is made, it should remain preserved always. In the case of transactions, the integrity of the data is very essential so that the database remains consistent before and after the transaction. The data should always be correct.
+ Isolation: The term 'isolation' means separation. In DBMS, Isolation is the property of a database where no data should affect the other one and may occur concurrently. In short, the operation on one database should begin when the operation on the first database gets complete. It means if two operations are being performed on two different databases, they may not affect the value of one another. In the case of transactions, when two or more transactions occur simultaneously, the consistency should remain maintained. Any changes that occur in any particular transaction will not be seen by other transactions until the change is not committed in the memory.
+Durability: Durability ensures the permanency of something. In DBMS, the term durability ensures that the data after the successful execution of the operation becomes permanent in the database. The durability of the data should be so perfect that even if the system fails or leads to a crash, the database still survives. However, if gets lost, it becomes the responsibility of the recovery manager for ensuring the durability of the database. For committing the values, the COMMIT command must be used every time we make changes.
+
+QUESTION NO.: 3 MARKS:5
+Java defines OOP concepts as follows:
+Abstraction. Using simple things to represent complexity. We all know how to turn the TV on, but we don’t need to know how it works in order to enjoy it. In Java, abstraction means simple things like objects, classes and variables represent more complex underlying code and data. This is important because it lets you avoid repeating the same work multiple times.Abstraction lets programmers create useful and reusable tools. 
+Encapsulation. The practice of keeping fields within a class private, then providing access to those fields via public methods. Encapsulation is a protective barrier that keeps the data and code safe within the class itself. We can then reuse objects like code components or variables without allowing open access to the data system-wide.Encapsulation lets us reuse functionality without jeopardizing security. It’s a powerful, time-saving OOP concept in Java. 
+Inheritance. A special feature of Object-Oriented Programming in Java, Inheritance lets programmers create new classes that share some of the attributes of existing classes. Using Inheritance lets us build on previous work without reinventing the wheel.Inheritance is another labor-saving Java OOP concept that works by letting a new class adopt the properties of another. We call the inheriting class a subclass or a child class.
+Polymorphism. Allows programmers to use the same word in Java to mean different things in different contexts. One form of polymorphism is method overloading. That’s when the code itself implies different meanings. The other form is method overriding.Polymorphism in Java works by using a reference to a parent class to affect an object in the child class. 
+
+QUESTION NO.: 4 MARKS:4
+A DBMS has appropriate languages and interfaces to express database queries and updates. Database languages can be used to read, store and update the data in the database. Types of Database Language:  
+(i)DDL 
+(ii)DML 
+(iii)DCL 
+(iv)TCL 
+1.Data Definition Language 
+DDL: stands for Data Definition Language. It is used to define database structure or pattern. It is used to create schema, tables, indexes, constraints, etc. in the database. Using the DDL statements, you can create the skeleton of the database. Data definition language is used to store the information of metadata like the number of tables and schemas, their names, indexes, columns in each table, constraints, etc. 
+2. Data Manipulation Language 
+DML: stands for Data Manipulation Language. It is used for accessing and manipulating data in a database. It handles user requests. Here are some tasks that come under DML: Select: It is used to retrieve data from a database. Insert: It is used to insert data into a table. Update: It is used to update existing data within a table. Delete: It is used to delete all records from a table. Merge: It performs INSERT operation, i.e., insert or update operations. Call: It is used to call a structured query language or a Java subprogram. Lock Table: It controls concurrency. 
+3. Data Control Language 
+DCL stands for Data Control Language. It is used to retrieve the stored or saved data. The DCL execution is transactional. It also has rollback parameters. (But in Oracle database, the execution of data control language does not have the feature of rolling back.) Here are some tasks that come under DCL:  
+Grant: It is used to give user access privileges to a database. Revoke:It is used to take back permissions from the user. There are the following operations which have the authorization of Revoke: CONNECT, INSERT, USAGE, EXECUTE, DELETE, UPDATE and SELECT. 
+4. Transaction Control Language TCL is used to run the changes made by the DML statement. TCL can be grouped into a logical transaction. Here are some tasks that come under TCL: Commit: It is used to save the transaction on the database. Rollback: It is used to restore the database to original since the last Commit.
+
+QUESTION NO.: 5 MARKS:2
+A kernel is considered the most critical part of a computer operating system, acting as the heart of the operating system that provides the OS’s essential services. With the operating system, Kernel is also loaded into memory and remains in memory until the operating system is not shut. It performs various tasks such as memory management, risk management, and task management. 
